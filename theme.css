@@ -3,10 +3,17 @@ body {
 }
 
 .paragraph {
-    color: rgb(209, 199, 200);
-    text-align: justify;
-    text-indent: 5em;
-    text-align-last: left;
+    color: blue;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bio {
+    display: inline-block;
+    max-width: 50%;
+    background-color: rgb(209, 199, 200);
+    border-radius: 10px;
+    margin-left: .75em;
 }
 
 .nav {
@@ -50,7 +57,8 @@ body {
 
 #header{
     text-align: center;
-    padding-top: 4em;
+    padding-top: 5.5em;
+    
 }
 
 header{
@@ -61,4 +69,8 @@ header{
     top: 1em;
     right: 8em;
     left: 8em;
+}
+
+.selfie{
+    float: right;
 }
