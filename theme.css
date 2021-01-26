@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(168, 50, 68);
+}
+
+.paragraph {
+    color: rgb(209, 199, 200);
+    text-align: left;
+    text-indent: 5em;
+}
+
+.nav {
+    text-align: center;
+    color: blue;
+    border: none;
+    display: block;
+}
+.nav:hover{
+    color: rgb(168,50,68);
+}
+
+.navLink {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.navLink:hover {
+    color: rgb(168,50,68);
+}
+
+#accordion {
+    background-color: rgb(209, 199, 200);
+    border-radius: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: pointer;
+    display: block;
+
+}
+
+#copyR{
+    position: fixed;
+    text-align: center;
+    bottom:0px;
+    width: 100%;
+
+}
+#header{
+    text-align: center;
+    padding-top: 4em;
+}
+header{
+    background-color:rgb(209, 199, 200);
+    border-radius: 10px;
+    width: 80em, auto;
+    position: fixed;
+    top: 1em;
+    right: 8em;
+    left: 8em;
+}
