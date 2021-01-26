@@ -4,8 +4,9 @@ body {
 
 .paragraph {
     color: rgb(209, 199, 200);
-    text-align: left;
+    text-align: justify;
     text-indent: 5em;
+    text-align-last: left;
 }
 
 .nav {
@@ -46,10 +47,12 @@ body {
     width: 100%;
 
 }
+
 #header{
     text-align: center;
     padding-top: 4em;
 }
+
 header{
     background-color:rgb(209, 199, 200);
     border-radius: 10px;
