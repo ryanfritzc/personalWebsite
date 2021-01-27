@@ -4,3 +4,9 @@ $(function() {
         active: false
     });
 });
+$(function () {
+    $("#accordion2").accordion({
+        collapsible: true,
+        active: true
+    });
+});

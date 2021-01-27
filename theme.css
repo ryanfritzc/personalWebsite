@@ -10,10 +10,11 @@ body {
 
 .bio {
     display: inline-block;
-    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: rgb(209, 199, 200);
     border-radius: 10px;
-    margin-left: .75em;
+    text-align: center;
 }
 
 .nav {
@@ -72,5 +73,15 @@ header{
 }
 
 .selfie{
-    float: right;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#accordion2 {
+    background-color: rgb(209, 199, 200);
+    border-radius: 10px;
+    width: 40em, auto;
+    cursor: pointer;
+    display: compact;
 }
