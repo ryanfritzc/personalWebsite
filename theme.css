@@ -71,6 +71,7 @@ header{
     top: 1em;
     right: 8em;
     left: 8em;
+    outline:dashed;
 }
 
 .selfie{
@@ -82,7 +83,22 @@ header{
 #accordion2 {
     background-color: rgb(209, 199, 200);
     border-radius: 10px;
-    width: 40em, auto;
+    left: 30%;
+    right: 55%;
+    position: fixed;
     cursor: pointer;
-    display: compact;
+    display: block;
+    outline:dashed;
+    width: 40%;
+}
+.button {
+    position: fixed;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 3em;
+    left: 40%;
+    right: 40%;
+}
+main{
+    outline: dashed;
 }
