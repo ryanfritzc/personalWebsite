@@ -51,10 +51,10 @@ body {
 
 #copyR{
     position: fixed;
-    text-align: center;
+    text-align: right;
     bottom:0px;
     width: 100%;
-
+    right: 3em;
 }
 
 #header{
@@ -85,7 +85,7 @@ header{
     border-radius: 10px;
     left: 30%;
     right: 55%;
-    position: fixed;
+    position: relative;
     cursor: pointer;
     display: block;
     outline:dashed;
@@ -101,4 +101,5 @@ header{
 }
 main{
     outline: dashed;
+    overflow: auto;
 }
