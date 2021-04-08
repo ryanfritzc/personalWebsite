@@ -8,7 +8,7 @@ body {
     padding-right: 1em;
 }
 
-.bio {
+.intro {
     display: inline-block;
     margin-left: 30%;
     margin-right: 30%;
@@ -46,7 +46,7 @@ body {
     padding-right: 2em;
     cursor: pointer;
     display: block;
-
+    
 }
 
 #copyR{
@@ -57,7 +57,7 @@ body {
     right: 3em;
 }
 
-#header{
+.header{
     text-align: center;
     padding-top: 5.5em;
     
